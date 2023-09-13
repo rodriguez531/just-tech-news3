@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
     host: 'localhost',
     dialect: 'mysql',
-    password: "flash531Rex",
+    password: '@flash531Rex',
     port: 3306
   });
 }
